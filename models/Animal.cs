@@ -79,3 +79,14 @@ public class Folder
     Parent = parent;
   }
 }
+
+public class House
+{
+  public List<Room> Rooms = new List<Room>();
+}
+
+public class Room
+{
+  public int SqFt;
+  public List<Room> Exits = new List<Room>();
+}
